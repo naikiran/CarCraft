@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/card.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url(/Image/texture-crushed-paper.jpg);">
+  <div class="wrapper">
+    <div class="credit-card" id="card">
+      <div class="card-front">
+        <div class="branding">
+          <img
+            src="https://pentagram-production.imgix.net/ee458d4d-a8e8-4177-b2a8-97df766e2e99/lh_mb_mastercard_02.jpg?rect=%2C%2C%2C&w=640&crop=1&fm=jpg&q=70&auto=format&fit=crop&h=400"
+            class="chip-img" />
+          <img src="https://static-00.iconduck.com/assets.00/payment-visa-icon-2048x1261-bxxvrf9b.png"
+            class="visa-logo" />
+        </div>
+        <div class="card-number">
+          <div>
+            <span class="card-number-display">1</span>
+            <span class="card-number-display">2</span>
+            <span class="card-number-display">3</span>
+            <span class="card-number-display">4</span>
+          </div>
+
+          <div>
+            <span class="card-number-display">1</span>
+            <span class="card-number-display">2</span>
+            <span class="card-number-display">3</span>
+            <span class="card-number-display">4</span>
+          </div>
+
+          <div>
+            <span class="card-number-display">*</span>
+            <span class="card-number-display">*</span>
+            <span class="card-number-display">*</span>
+            <span class="card-number-display">*</span>
+          </div>
+          <div>
+            <span class="card-number-display">*</span>
+            <span class="card-number-display">*</span>
+            <span class="card-number-display">*</span>
+            <span class="card-number-display">*</span>
+          </div>
+        </div>
+        <div class="details">
+          <div>
+            <span>Card Holder</span>
+            <span id="card-holder-name">Your Name Here</span>
+          </div>
+          <div>
+            <span>Card Holder</span>
+            <span id="card-holder-name">Your Name Here</span>
+          </div>
+
+          <div>
+            <span>Expires</span>
+            <span id="validity">06/28</span>
+          </div>
+        </div>
+      </div>
+      <div class="card-back">
+        <div class="black-strip"></div>
+        <div class="white-strip">
+          <span>CVV</span>
+          <div id="cvv-display"></div>
+        </div>
+  
+      </div>
+    </div>
+    <form>
+
+      <label for="card-number">Card Number</label>
+      <input type="number" id="card-number" placeholder="1234 1234 1234 1234" />
+
+      <label for="card-holder">Card Holder:</label>
+      <input type="text" id="card-name-input"  placeholder="Your Name" />
+
+      <div class="date-cvv">
+        <div>
+          <label for="validity">Expires On:</label>
+          <input type="date" id="validity-input" />
+        </div>
+        <div>
+          <label for="cvv">CVV:</label>
+          <input type="number" id="cvv" placeholder="***" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <a href="/thank pages/thankyoupage.html" style="text-decoration: none;" >
+      
+       <div class="but">
+        pay now
+       </div>
+       
+  
+      </a>
+    
+    </form>
+  </div>
+
+  <br>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

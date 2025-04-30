@@ -1,0 +1,122 @@
+/* Reset some default styles for better consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none  ;
+}
+
+/* Body styling */
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-image: url('/Image/texture-crushed-paper.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for form */
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Title Styling */
+h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #183153;
+  margin-bottom: 20px;
+  letter-spacing: 1px; /* Slight spacing to give it an elegant feel */
+  text-transform: uppercase; /* Makes it all caps for emphasis */
+}
+
+/* Input Fields Styling */
+.input-group {
+  position: relative;
+  margin-bottom: 15px; /* Reduced margin between input fields */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  padding-left: 40px; /* space for icon */
+  margin: 5px 0; /* Reduced margin between input fields */
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #333;
+}
+
+.input-group input:focus {
+  border-color: #183153;
+  outline: none;
+}
+
+.input-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #183153;
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  background-color: #183153;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn a {
+  color: white;
+}
+.btn:hover {
+  background-color: #4CAF50; /* Hover effect */
+}
+
+/* Link for signing up */
+.login-link {
+  margin-top: 15px;
+}
+
+.login-link a {
+  color: #183153;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link a:hover {
+  color: #4CAF50;
+}
+.signup-link{
+  margin-top: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 2.2em;
+  }
+}

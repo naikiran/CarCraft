@@ -1,0 +1,24 @@
+
+*{
+    text-decoration: none;
+}
+
+/* 
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    } */
+
+ .decoration
+ {
+    text-decoration: none;
+    color: white;
+ }
+
+ .h-custom{
+    background-image: url(/Image/texture-crushed-paper.jpg)
+ }
+ .btn-primary{
+   background-color: #183153;
+ }

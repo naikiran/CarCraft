@@ -1,0 +1,124 @@
+*{
+    text-decoration: none;
+
+}
+.breadcrumb{
+  justify-content: center;
+  position: absolute;
+  top: 294px;
+  left: 685px;
+}
+
+.d-flex {
+  gap: 50%;
+  color: white;
+  font-size: larger;
+}
+body {
+  overflow-x: hidden;
+}
+
+.img{
+    max-width: 100%  ;
+}
+.ban{
+    /* position: relative; */
+    /* margin-top: 60px; */
+    /* margin-bottom: 60px; */
+    background-image: url(/Image/Forged-Fuel-Wheel-Collection-Headers_2869_9393.jpeg);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    
+}
+.text-fam{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: #183153;   
+}
+.title{
+    padding-bottom: 0.5 rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #183153;
+}
+.desc {
+    font-weight: 700;
+    font-size: small;
+}
+button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #183153;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffd401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+  
+  button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover span {
+    color: #183153;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+/* .title H2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #183153; */
+/* } */
+/* .item-1{
+    width: 697px;
+    position: relative;
+    /* left: -697px; */
+    /* top: 0px; */
+    /* z-index: 999; */
+    /* opacity: 1; */
+/* }

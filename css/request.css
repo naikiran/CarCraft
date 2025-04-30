@@ -1,0 +1,129 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+link:hover {
+  color: #183153 !important;
+  /* font-size: 20px!important; */
+}
+a:hover {
+  color: #183153!important;
+  /* font-size: 20px!important; */
+}
+.form-a{
+  background-image: url(/Image/texture-crushed-paper.jpg);
+}
+.navbar-nav{
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  color: black;
+  font-family: sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.vedio-hader {
+  height: 1100%;
+  width: 100%;
+}
+.nav-item a {
+  color: white;
+  font-size: larger;
+}
+.d-flex {
+  gap: 50%;
+  color: white;
+  font-size: larger;
+}
+.img-w {
+  width: 15%;
+  height: 20%;
+}
+.carousel-inner {
+  height: 200px;
+}
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  justify-content: left;
+  margin: auto;
+}
+.content h1 {
+  font-size: 100px;
+  color: black;
+  font-weight: bold;
+}
+.carcontent {
+  text-align: center;
+}
+.content h4 {
+  text-align: center;
+  font-weight: bold;
+}
+.backvideo {
+  right: 0%;
+  bottom: 0%;
+}
+.title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+button span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+button:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+@keyframes scaleUp {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(0.95);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+

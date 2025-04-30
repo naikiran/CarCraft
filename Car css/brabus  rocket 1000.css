@@ -1,0 +1,221 @@
+* {
+    text-decoration: none;
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.form-a {
+    background-image: url(/Image/texture-crushed-paper.jpg);
+}
+
+.color {
+    color: white;
+    background: gray;
+    opacity: 0.9;
+}
+
+
+.navbar-nav {
+
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+
+
+    color: black;
+    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: 900;
+}
+
+.breadcrumb{
+    justify-content: center;
+    position: absolute;
+    top: 294px;
+    left: 685px;
+}
+
+.d-flex {
+    gap: 50%;
+    color: white;
+    font-size: larger;
+}
+body {
+    overflow-x: hidden;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.ban {
+    /* position: relative; */
+    /* margin-top: 60px; */
+    /* margin-bottom: 60px; */
+    background-image: url(/Image/car\ banner.jpg);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+
+}
+
+.text-fam {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: #183153;
+}
+
+.title {
+    padding-bottom: 0.5 rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #183153;
+}
+
+.desc {
+    font-weight: 700;
+    font-size: small;
+}
+
+.owl-carousel {
+    display: block;
+}
+
+/* .title H2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #183153; */
+/* } 
+/* .item-1{
+    width: 697px;
+    position: relative;
+    /* left: -697px; */
+/* top: 0px; */
+/* z-index: 999; */
+/* opacity: 1; */
+/* }
+
+/* CSS for small screens */
+@media only screen and (max-width: 600px) {
+    .text {
+        margin-left: 0;
+        /* Adjust margin for smaller screens */
+    }
+
+    .col-6 {
+        width: 100%;
+        /* Make columns take full width on small screens */
+        border: none;
+        /* Remove borders on small screens */
+    }
+
+    .details {
+        padding: 0;
+        /* Remove padding for details on small screens */
+    }
+
+    .wheels-info {
+        margin-top: 1rem;
+        /* Adjust margin for smaller screens */
+    }
+}
+
+/* CSS for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .text {
+        margin-left: 300px;
+        /* Adjust margin for medium screens */
+    }
+
+    .col-6 {
+        width: 50%;
+        /* Make columns take half width on medium screens */
+    }
+}
+
+/* CSS for large screens */
+@media only screen and (min-width: 901px) {
+    .text {
+        margin-left: 700px;
+        /* Keep margin as it is for large screens */
+    }
+
+    .col-6 {
+        width: 50%;
+        /* Make columns take half width on large screens */
+    }
+}
+
+button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #183153;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+}
+
+button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffd401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+}
+
+button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+
+button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover span {
+    color: #183153;
+    animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

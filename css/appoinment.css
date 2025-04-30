@@ -1,0 +1,246 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+
+.form {
+  border: 2px solid white;
+  box-shadow: 0px 0px 0px rgb(rgb(48, 14, 14), rgb(0, 0, 0), blue);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.form {
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2),
+    -10px -10px 20px rgba(255, 255, 255, 0.5);
+  transform: translateY(-10px);
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3),
+    -15px -15px 30px rgba(255, 255, 255, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-a {
+  background-image: url(/Image/texture-crushed-paper.jpg);
+  background-repeat: repeat;
+}
+
+.navbar-nav {
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+
+  color: black;
+  font-family: sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.vedio-hader {
+  /* height: 100%; */
+  width: 100%;
+}
+
+.nav-item a {
+  color: white;
+
+  font-size: larger;
+}
+
+.d-flex {
+  gap: 50%;
+  color: white;
+  font-size: larger;
+}
+
+.img-w {
+  width: 15%;
+  height: 20%;
+}
+
+.carousel-inner {
+  height: 200px;
+}
+
+.hero {
+  width: 100%;
+  /* height: 90vh;
+                          position: relative;
+                          padding: 0 5%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  justify-content: left;
+  margin: auto;
+}
+
+.content h1 {
+  font-size: 100px;
+  color: black;
+  font-weight: bold;
+}
+
+.carcontent {
+  text-align: center;
+}
+
+.content h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.backvideo {
+  /* position: absolute; */
+  right: 0%;
+  bottom: 0%;
+  /* z-index: -1; */
+}
+
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+.button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.button a {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover a {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+/* Footer */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+section {
+  /* padding: 60px 0; */
+}
+
+section .section-title {
+  text-align: center;
+  /* color: #007b5e; */
+  color: #183153;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#footer {
+  /* background: #007b5e !important; */
+  background: #183153 !important;
+}
+#footer h5 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li {
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a {
+  color: #ffffff;
+}
+#footer ul.social li a:hover {
+  color: #eeeeee;
+}
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+#footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
